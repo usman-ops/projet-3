@@ -1,0 +1,30 @@
+
+.restaurants{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3rem repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    justify-content: center;
+    background-color: #fff;
+}
+.titre--restau{
+    grid-column-start: 2;
+}
+.plat1{
+grid-column-start: 2;
+grid-row-start: 2;
+
+}
+.plat2{
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+.plat3{
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+.plat4{
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
