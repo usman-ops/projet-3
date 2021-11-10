@@ -1,0 +1,38 @@
+
+/*reservation*/
+
+.lclst{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    
+    background-color: grey;
+     }
+     .lclst_icone{
+        display: inline-flex;
+        width: 100%;
+        height: 40px;
+        justify-content: center;
+        background-color: rgb(189, 200, 201);
+     }
+
+     /*fonctionnement*/
+
+     .Fonct{
+        width: 100%;
+        height: 8rem;
+        background-color:yellow;
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0;
+        flex-wrap: wrap;
+        }
+        .fonct_ctnr{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          margin: 20px 0;
+        }
