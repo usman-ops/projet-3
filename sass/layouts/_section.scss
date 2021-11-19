@@ -7,15 +7,25 @@
     width: 100%;
     text-align: center;
     align-items: center;
-    
-    background-color: grey;
+    background-color: rgb(250, 246, 246);
      }
      .lclst_icone{
         display: inline-flex;
         width: 100%;
         height: 40px;
         justify-content: center;
-        background-color: rgb(189, 200, 201);
+        background-color: rgb(204, 210, 211);
+        padding: 15px 0;
+     }
+     .lclst_icone--i{
+        margin-right: 10px;
+     }
+     .lclst_reserve--t{
+        font-size: 24px;
+        font-weight: 700;
+     }
+     .lclst_reserve--d{
+font-weight: normal;
      }
 
      /*fonctionnement*/
@@ -23,16 +33,21 @@
      .Fonct{
         width: 100%;
         height: 8rem;
-        background-color:yellow;
+        background-color:rgb(233, 227, 227);
         display: flex;
         flex-direction: row;
         margin: 20px 0;
         flex-wrap: wrap;
         }
-        .fonct_ctnr{
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          justify-content: space-around;
-          margin: 20px 0;
+        .fonct_ctnr--i{
+           font-size: 20px;
+           color: grey;
         }
+        .fonct_ctnr--guide{
+           font-size: 20px;
+           font-weight: bold;
+        }
+        .fonct--ttr{
+           font-size: 24px;
+        }
+      

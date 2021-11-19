@@ -1,5 +1,5 @@
 
-.restaurants{
+.nommer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -9,7 +9,7 @@
     background-color: #fff;
 }
 .titre--restau{
-    grid-column-start: 2;
+    grid-column-start: -1;
 }
 .plat1{
 grid-column-start: 1;
