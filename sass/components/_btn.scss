@@ -16,11 +16,24 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 0 20px;
+    margin: 40px;
+    height: 35px;
     width: 290px;
+    padding: 12px 0;
     border-radius: 15px;
     box-shadow: 0px 0px 12px 0px grey;
     background-color: white;
+   }
+
+   .ctnr_plat--nv{
+     border-radius: 3px;
+     background-color:#99E2D0
+     ;
+     position: absolute;
+     top: 12px;
+     right: 12px;
+     color: rgb(18, 189, 55);
+
    }
    
   

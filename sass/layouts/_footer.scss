@@ -2,13 +2,22 @@
 footer{
     background-color:rgb(68, 67, 67);
     text-decoration: none;
-    color: red;
     
+  }
+  .ftimg{
+
   }
   .ftimg_contacte{
     display: flex;
+    align-items: center;
+    color: #fff;
   }
   
   ul {
     list-style: none;
+    color: #fff;
+    padding: 0;
+  }
+  a{
+    color: #fff;
   }

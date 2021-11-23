@@ -3,6 +3,24 @@
     font-size: 1.6rem;
     font-weight: bold;
 }
+.ctnr_plat--coeur{
+    position: absolute;
+    transform-origin: bottom;
+    opacity: 1;
+    font-size: 23px;
+    right: 24px;
+    bottom: 24px;
+    cursor: pointer;
+}
+.ctnr_coeur--color{
+    position: absolute;
+    transform-origin: bottom;
+    opacity: 0;
+    font-size: 24px;
+    right: 24px;
+    bottom: 24px;
+    cursor: pointer;
+}
 
 .fonct_ctnr--chiffre{
 color: #fff;

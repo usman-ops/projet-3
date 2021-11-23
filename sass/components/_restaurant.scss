@@ -1,11 +1,11 @@
 .ctnr_plat{
     position: relative;
-    background-color:rgb(122, 122, 165);
+    background-color: #fff;
     width: 100%;
     height: 300px;
     border-radius: 1.5rem;
     
-    box-shadow: 3px 8px 8px orangered;
+    box-shadow: 3px 8px 8px grey;
     margin: 0 0 3rem 0;
 }
 .ctnr_plat--img{
@@ -16,10 +16,12 @@
 }
 .ctnr_plat--info{
     position: relative;
-    background-color: cornflowerblue;
+    background-color: #fff;
     border-radius: 0 0 1.5rem 1.5rem;
     height: 74px;
+    color: black;
 }
 a{
     text-decoration: none;
+    
 }
