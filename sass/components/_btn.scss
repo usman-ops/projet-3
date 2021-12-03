@@ -7,7 +7,10 @@
     font-size: 1.6rem;
     color:whitesmoke;
     padding: 0.90rem;
-    background-color: rgb(207, 88, 148);
+    background-color: #ffff;
+    background-image: linear-gradient(134deg,#FF79DA,#9356DC );
+  cursor: pointer;
+  transition-duration: .20s;
   
   }   
   /*fonctionnement*/
@@ -22,7 +25,7 @@
     padding: 12px 0;
     border-radius: 15px;
     box-shadow: 0px 0px 12px 0px grey;
-    background-color: white;
+    background: #fafafa;
    }
 
    .ctnr_plat--nv{

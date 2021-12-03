@@ -1,6 +1,6 @@
 
 .restaurants{
-    background-color: #f2f2f2;
+    background-color: #fafafa;
 }
 .nommer{
     display: grid;
@@ -9,7 +9,7 @@
     column-gap: 2rem;
     row-gap: 2rem;
     justify-content: center;
-    background-color: #fff;
+    
 }
 .titre--restau{
     grid-column-start: -1;
@@ -31,3 +31,56 @@ grid-row-start: 1;
     grid-column-start: 2;
     grid-row-start: 2;
 }
+@media screen and ( max-width: 767px)
+{
+    .fonct{
+        display: block !important;
+        margin: 0;
+        height: unset !important;
+    }
+.fonct_ctnr{
+    
+}
+.nommer{
+    display: block;
+    
+}
+.ctnr_plat{
+    
+}
+.ctnr_plat--nv{
+    
+}
+
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .fonct{
+        display: block !important;
+        margin: 0;
+        height: unset !important;
+    }
+.fonct_ctnr{
+    width: unset !important;
+    justify-content: flex-start !important;
+}
+.nommer{
+    display: block;
+    
+}
+
+}
+@media screen and (min-width: 1023px) {
+    .fonct{
+        flex-wrap: unset !important;
+        
+    }
+    .fonct_ctnr{
+        justify-content: center !important;
+    }
+    .fonct_ctnr--guide{
+        font-size: unset !important;
+        
+    }
+    
+}
+    

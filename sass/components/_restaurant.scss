@@ -20,8 +20,12 @@
     border-radius: 0 0 1.5rem 1.5rem;
     height: 74px;
     color: black;
+    padding-left: 10px;
 }
 a{
     text-decoration: none;
+}
+.fa-gradient{
+    background: linear-gradient(45deg, #9356DC ,#FF79DA )
     
 }
