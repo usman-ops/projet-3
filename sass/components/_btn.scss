@@ -30,13 +30,25 @@
 
    .ctnr_plat--nv{
      border-radius: 3px;
-     background-color:#99E2D0
-     ;
+     background-color:#99E2D0;
      position: absolute;
      top: 12px;
      right: 12px;
      color: rgb(18, 189, 55);
 
+   }
+
+   /*menilmontant*/
+
+   .diff_btn{
+     height: 60px;
+     width: 210px;
+     margin: 30px auto;
+     border-radius: 30px;
+     color: #ffff;
+     background: linear-gradient(183deg,#9356DC ,#FF79DA );
+     box-shadow: 0px 0px 12px 0px grey ;
+     font-size: 1.5rem;
    }
    
   

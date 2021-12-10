@@ -1,3 +1,7 @@
+body {
+  font-family: "roboto", sans-serif;
+}
+
 .restaurants {
   background-color: #fafafa;
 }
@@ -113,6 +117,18 @@
   color: #12bd37;
 }
 
+/*menilmontant*/
+.diff_btn {
+  height: 60px;
+  width: 210px;
+  margin: 30px auto;
+  border-radius: 30px;
+  color: #ffff;
+  background: linear-gradient(183deg, #9356DC, #FF79DA);
+  box-shadow: 0px 0px 12px 0px grey;
+  font-size: 1.5rem;
+}
+
 .titre--restau {
   font-size: 1.6rem;
   font-weight: bold;
@@ -146,6 +162,24 @@
   border-radius: 50%;
   padding: 4px 9px 4px 9px;
   margin: 0 1.5rem 0 -12px;
+}
+
+/*menilmontant*/
+.resto_coeur {
+  position: absolute;
+  cursor: pointer;
+  transform-origin: bottom;
+  right: 8%;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.resto_coeur--color {
+  position: absolute;
+  cursor: pointer;
+  transform-origin: bottom;
+  right: 8%;
+  font-size: 1.5rem;
 }
 
 .ctnr_plat {
@@ -258,6 +292,86 @@ a {
   height: 30rem;
 }
 
+.titre_menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carte {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 15px 15px 0px 0px;
+  background-color: #fafafa;
+  max-width: 900px;
+  margin: 0px auto;
+}
+
+.diff {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.diff_catg {
+  padding: 10px 0 0 3px;
+  font-size: 15px;
+}
+
+.diff_catg--line {
+  width: 42px;
+  border-top: 3px solid #99E2D0;
+  margin: 10px 0 0 0;
+}
+
+.diff_plat {
+  position: relative;
+  padding: 0 0 15px 0;
+  width: 100%;
+  height: 70px;
+  margin: 1rem 0 12px 0;
+  align-items: center;
+  border-radius: 1.5rem;
+  box-shadow: 3px 3px 10px green;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.diff_plat--titre {
+  padding: 0 30px;
+}
+
+.diff_plat--toow {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.diff_plat--hover {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color: #99E2D0;
+  top: 0;
+  left: 100%;
+  width: 20%;
+  height: 100%;
+  border-radius: 0 1.5rem 1.5rem 0;
+  color: #ffff;
+  font-size: 20px;
+  transform-origin: right;
+  visibility: hidden;
+}
+
+.diff_btn--box {
+  text-align: center;
+}
+
 footer {
   background-color: #444343;
   text-decoration: none;
@@ -281,6 +395,54 @@ ul {
 
 .leg {
   color: #fff;
+}
+
+/*menilmontant*/
+.pied {
+  color: white;
+}
+
+.fa-heart {
+  font-size: 50px;
+}
+
+.container {
+  position: absolute;
+  bottom: 5px;
+  right: 24px;
+  transform: translate(-50%, -50%);
+}
+
+.heart {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  -webkit-text-stroke: 2px white;
+}
+
+.heart-color {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background: linear-gradient(#FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.3s ease;
+}
+
+.heart:hover .heart-color {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.heart:hover {
+  background: linear-gradient(#FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0px white;
 }
 
 /*# sourceMappingURL=style.css.map */

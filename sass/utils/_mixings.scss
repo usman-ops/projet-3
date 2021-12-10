@@ -31,3 +31,22 @@ border-radius: 50%;
 padding: 4px 9px 4px 9px;
 margin: 0 1.5rem 0 -12px;
 }
+/*menilmontant*/
+
+.resto_coeur{
+    position: absolute;
+    cursor: pointer;
+    transform-origin: bottom;
+    
+    right: 8%;
+    font-size: 1.5rem;
+    color: black;
+   }
+   .resto_coeur--color{
+      position: absolute;
+      cursor: pointer;
+      transform-origin: bottom;
+      
+      right: 8%;
+      font-size: 1.5rem;
+   }
