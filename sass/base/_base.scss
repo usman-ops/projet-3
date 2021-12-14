@@ -41,20 +41,23 @@ grid-row-start: 1;
         margin: 0;
         height: unset !important;
     }
-.fonct_ctnr{
-    
-}
-.nommer{
-    display: block;
-    
-}
-.ctnr_plat{
-    
-}
-.ctnr_plat--nv{
-    
-}
+    .nommer{
+        display: block !important;
+    }
 
+/*menilmontant*/
+
+.carte{
+    bottom: 120px;
+}
+.box{
+    position: unset !important;
+    margin-top: 40px;
+}
+.fa-heart{
+    font-size: 30px !important;
+
+}
 }
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .fonct{
@@ -70,6 +73,15 @@ grid-row-start: 1;
     display: block;
     
 }
+/*menilmontant*/
+
+.carte{
+    bottom: 120px;
+}
+.box{
+    position: unset !important;
+    margin-top: 50px;
+}
 
 }
 @media screen and (min-width: 1023px) {
@@ -84,6 +96,15 @@ grid-row-start: 1;
         font-size: unset !important;
         
     }
+    /*menilmontant*/
+
+.carte{
+    bottom: 120px;
+}
+.box{
+    position: unset !important;
+    margin-top: 50px;
+}
     
 }
     
