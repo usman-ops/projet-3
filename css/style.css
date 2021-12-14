@@ -39,6 +39,19 @@ body {
   grid-row-start: 2;
 }
 
+@media screen and (min-width: 320px) {
+  .font--ttr {
+    padding-left: unset !important;
+  }
+
+  .fonct_ctnr {
+    width: auto !important;
+  }
+
+  .fonct_ctnr--guide {
+    font-size: unset !important;
+  }
+}
 @media screen and (max-width: 767px) {
   .fonct {
     display: block !important;
@@ -80,6 +93,10 @@ body {
     justify-content: flex-start !important;
   }
 
+  .fonct_ctnr--guide {
+    padding: 0 8px !important;
+  }
+
   .nommer {
     display: block;
   }
@@ -105,6 +122,7 @@ body {
 
   .fonct_ctnr--guide {
     font-size: unset !important;
+    padding: 0 8px;
   }
 
   /*menilmontant*/

@@ -34,6 +34,20 @@ grid-row-start: 1;
     grid-column-start: 2;
     grid-row-start: 2;
 }
+@media screen and (min-width: 320px)
+{
+    .font--ttr{
+        padding-left: unset !important;
+    }
+.fonct_ctnr{
+    width: auto !important;
+}
+.fonct_ctnr--guide{
+    font-size: unset !important;
+    
+}
+}
+
 @media screen and ( max-width: 767px)
 {
     .font--ttr{
@@ -75,6 +89,9 @@ grid-row-start: 1;
     width: unset !important;
     justify-content: flex-start !important;
 }
+.fonct_ctnr--guide{
+    padding: 0 8px !important;
+}
 .nommer{
     display: block;
     
@@ -100,7 +117,7 @@ grid-row-start: 1;
     }
     .fonct_ctnr--guide{
         font-size: unset !important;
-        
+        padding: 0 8px;
     }
     /*menilmontant*/
 
