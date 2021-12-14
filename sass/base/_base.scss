@@ -36,10 +36,16 @@ grid-row-start: 1;
 }
 @media screen and ( max-width: 767px)
 {
+    .font--ttr{
+
+    }
     .fonct{
         display: block !important;
-        margin: 0;
+        margin: 20px auto !important;
         height: unset !important;
+    }
+    .fonct_ctnr{
+    padding: 12px 4px 12px 0px !important;
     }
     .nommer{
         display: block !important;
