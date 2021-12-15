@@ -40,16 +40,33 @@ grid-row-start: 1;
         padding-left: unset !important;
     }
 .fonct_ctnr{
-    width: auto !important;
+     width: auto !important;
+}
+.fonct_ctnr--chiffre {
+
+    margin: 0 0 0 -12px !important
 }
 .fonct_ctnr--guide{
     font-size: unset !important;
     
 }
 }
+@media screen and (min-width: 375px) and (max-width: 522px){
+
+    .fonct_ctnr--chiffre{
+        margin-left: -30px !important;
+    }
+}
 
 @media screen and ( max-width: 767px)
 {
+    .btn{
+        font-size: 15px !important;
+    }
+    .lclst_reserve--t{
+        font-size: unset !important;
+        font-weight: unset !important;
+    }
     .font--ttr{
 
     }

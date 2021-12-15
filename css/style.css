@@ -48,11 +48,29 @@ body {
     width: auto !important;
   }
 
+  .fonct_ctnr--chiffre {
+    margin: 0 0 0 -12px !important;
+  }
+
   .fonct_ctnr--guide {
     font-size: unset !important;
   }
 }
+@media screen and (min-width: 375px) and (max-width: 522px) {
+  .fonct_ctnr--chiffre {
+    margin-left: -30px !important;
+  }
+}
 @media screen and (max-width: 767px) {
+  .btn {
+    font-size: 15px !important;
+  }
+
+  .lclst_reserve--t {
+    font-size: unset !important;
+    font-weight: unset !important;
+  }
+
   .fonct {
     display: block !important;
     margin: 20px auto !important;
@@ -141,7 +159,7 @@ body {
   border: 2rem;
   box-shadow: 3px 3px 3px #9e9a9a;
   font-size: 1.6rem;
-  color: whitesmoke;
+  color: white;
   padding: 0.9rem;
   background-color: #ffff;
   background-image: linear-gradient(134deg, #FF79DA, #9356DC);
