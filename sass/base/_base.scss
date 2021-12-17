@@ -40,7 +40,7 @@ grid-row-start: 1;
         padding-left: unset !important;
     }
 .fonct_ctnr{
-     width: auto !important;
+    width: auto !important;
 }
 .fonct_ctnr--chiffre {
 
@@ -77,7 +77,9 @@ grid-row-start: 1;
     }
     .fonct_ctnr{
     padding: 12px 4px 12px 0px !important;
+    
     }
+    
     .nommer{
         display: block !important;
     }
@@ -105,6 +107,9 @@ grid-row-start: 1;
 .fonct_ctnr{
     width: unset !important;
     justify-content: flex-start !important;
+}
+.fonct_ctnr--chiffre{
+
 }
 .fonct_ctnr--guide{
     padding: 0 8px !important;

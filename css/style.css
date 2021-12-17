@@ -404,8 +404,13 @@ a {
 
 .diff_catg--line {
   width: 42px;
-  border-top: 3px solid #99E2D0;
+  border-top: 3px solid #99e2d0;
   margin: 10px 0 0 0;
+}
+
+.diff_plat:hover + .diff_plat--hover {
+  background-color: red;
+  overflow: visible !important;
 }
 
 .diff_plat {
@@ -418,7 +423,28 @@ a {
   border-radius: 1.5rem;
   box-shadow: 3px 3px 10px gray;
   cursor: pointer;
-  overflow: hidden;
+}
+.diff_plat:hover {
+  background-color: red;
+}
+.diff_plat:hover .diff_plat--hover {
+  transform: scaleX(1);
+  overflow: visible !important;
+}
+.diff_plat .diff_plat--hover {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color: #99e2d0;
+  top: 0;
+  left: 100%;
+  width: 20%;
+  height: 100%;
+  border-radius: 0 1.5rem 1.5rem 0;
+  color: #ffff;
+  font-size: 20px;
+  transform-origin: right;
+  transition: transform 1s;
 }
 
 .diff_plat--titre {
@@ -429,23 +455,6 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 0 30px;
-}
-
-.diff_plat--hover {
-  display: flex;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  background-color: #99E2D0;
-  top: 0;
-  left: 100%;
-  width: 20%;
-  height: 100%;
-  border-radius: 0 1.5rem 1.5rem 0;
-  color: #ffff;
-  font-size: 20px;
-  transform-origin: right;
-  visibility: hidden;
 }
 
 .diff_btn--box {
