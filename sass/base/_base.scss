@@ -84,19 +84,7 @@ grid-row-start: 1;
         display: block !important;
     }
 
-/*menilmontant*/
 
-.carte{
-    bottom: 120px;
-}
-.box{
-    position: unset !important;
-    margin-top: 40px;
-}
-.fa-heart{
-    font-size: 30px !important;
-
-}
 }
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .fonct{
@@ -118,15 +106,6 @@ grid-row-start: 1;
     display: block;
     
 }
-/*menilmontant*/
-
-.carte{
-    bottom: 120px;
-}
-.box{
-    position: unset !important;
-    margin-top: 50px;
-}
 
 }
 @media screen and (min-width: 1023px) {
@@ -141,15 +120,7 @@ grid-row-start: 1;
         font-size: unset !important;
         padding: 0 8px;
     }
-    /*menilmontant*/
-
-.carte{
-    bottom: 120px;
-}
-.box{
-    position: unset !important;
-    margin-top: 50px;
-}
+    
     
 }
     
