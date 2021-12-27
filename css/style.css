@@ -439,6 +439,10 @@ header .fa-arrow-left {
   .restaurants .new {
     left: 80%;
   }
+
+  .fa-arrow-left {
+    left: 35px;
+  }
 }
 @media screen and (min-width: 1024px) {
   body {
