@@ -11,7 +11,11 @@
     background-image: linear-gradient(134deg,#FF79DA,#9356DC );
   cursor: pointer;
   transition-duration: .20s;
-  
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 25%);
+  &:hover{
+    background-color: #ffff;
+    box-shadow: 3px 3px 3px rgb(0 0 0 / 50%);
+  }
   }   
   /*fonctionnement*/
   .fonct_ctnr{

@@ -42,15 +42,19 @@ grid-row-start: 1;
 .fonct_ctnr{
     width: auto !important;
 }
-.fonct_ctnr--chiffre {
 
-    margin: 0 0 0 -12px !important
-}
 .fonct_ctnr--guide{
     font-size: unset !important;
     
 }
 }
+@media screen and (min-width: 320px) and (max-width: 522px){
+    .fonct_ctnr--chiffre {
+
+        margin: 0 0 0 -12px !important
+    }
+}
+
 @media screen and (min-width: 375px) and (max-width: 522px){
 
     .fonct_ctnr--chiffre{

@@ -48,12 +48,13 @@ body {
     width: auto !important;
   }
 
-  .fonct_ctnr--chiffre {
-    margin: 0 0 0 -12px !important;
-  }
-
   .fonct_ctnr--guide {
     font-size: unset !important;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 522px) {
+  .fonct_ctnr--chiffre {
+    margin: 0 0 0 -12px !important;
   }
 }
 @media screen and (min-width: 375px) and (max-width: 522px) {
@@ -131,6 +132,11 @@ body {
   background-image: linear-gradient(134deg, #FF79DA, #9356DC);
   cursor: pointer;
   transition-duration: 0.2s;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.btn:hover {
+  background-color: #ffff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 /*fonctionnement*/
