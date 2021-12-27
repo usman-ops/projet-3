@@ -52,8 +52,10 @@ header {
     }
     .fa-arrow-left {
         font-size: 1.5rem;
-        margin-left: 35px;
+    
         color: black;
+        position: absolute;
+        left: 18px;
     }
 }
 
