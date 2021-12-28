@@ -271,7 +271,6 @@ header .fa-arrow-left {
   z-index: 2;
   position: relative;
   padding-top: 1rem;
-  padding-bottom: 4rem;
 }
 .menu-header {
   display: flex;
