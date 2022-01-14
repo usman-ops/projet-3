@@ -1,5 +1,6 @@
 body {
   font-family: "roboto", sans-serif;
+  margin: 0;
 }
 
 .restaurants {
@@ -85,6 +86,10 @@ body {
   .nommer {
     display: block !important;
   }
+
+  .ftimg {
+    width: 25% !important;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .fonct {
@@ -121,11 +126,11 @@ body {
   }
 }
 .btn {
-  margin: 4rem 0 3.5rem 0;
+  margin: 2rem 0;
   border-radius: 2rem;
   border: 2rem;
   box-shadow: 3px 3px 3px #9e9a9a;
-  font-size: 1.6rem;
+  font-size: 1.05rem;
   color: white;
   padding: 0.9rem;
   background-color: #ffff;
@@ -161,6 +166,7 @@ body {
   top: 12px;
   right: 12px;
   color: #12bd37;
+  padding: 0.48rem;
 }
 
 /*menilmontant*/
@@ -218,7 +224,7 @@ body {
 .ctnr_plat--img {
   border-radius: 1.5rem 1.5rem 0 0;
   width: 100%;
-  height: 175px;
+  height: 12rem;
   object-fit: cover;
 }
 
@@ -249,12 +255,10 @@ a {
 }
 
 header {
-  padding-top: 2rem;
   display: flex;
 }
 header img {
-  margin: auto;
-  margin-bottom: 1rem;
+  margin: 5px auto;
 }
 header .fa-arrow-left {
   font-size: 1.5rem;
@@ -277,16 +281,16 @@ header .fa-arrow-left {
   justify-content: space-between;
 }
 .menu-header h1 {
-  font-family: "Shrikhand-Regular", Arial, Helvetica, sans-serif;
+  font-family: "Shrikhand";
   font-weight: normal;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 .menu h2 {
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: normal;
   color: black;
-  margin-left: 30px;
+  margin-left: 10px;
   margin-bottom: 1.5rem;
 }
 .menu h2 .underline {
@@ -480,6 +484,7 @@ header .fa-arrow-left {
   text-align: center;
   font-size: 30px;
   border-bottom: 7px solid #f1f1f1;
+  padding: 0.5rem;
 }
 
 .logo_img {
@@ -503,7 +508,6 @@ header .fa-arrow-left {
 .lclst_icone {
   display: inline-flex;
   width: 100%;
-  height: 40px;
   justify-content: center;
   background-color: #f3f3f3;
   padding: 15px 0;
@@ -514,7 +518,6 @@ header .fa-arrow-left {
 }
 
 .lclst_reserve--t {
-  font-size: 24px;
   font-weight: 700;
 }
 
@@ -546,30 +549,39 @@ header .fa-arrow-left {
 
 .fonct--ttr {
   font-size: 24px;
-  padding-left: 45px;
+  font-weight: bold;
   padding-top: 5px;
 }
 
 footer {
   background-color: #444343;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
 }
 
 .ftimg {
   color: white;
-  margin: 0 7px;
+  margin: 0 7px 10px;
+  width: 18%;
 }
 
 .ftimg_contacte {
   display: flex;
   align-items: center;
   color: #fff;
+  margin: -18px 0;
 }
 
 ul {
   list-style: none;
   color: #fff;
   padding: 0 7px;
+  margin: 0;
+}
+ul li {
+  margin: -20px 0;
 }
 
 .leg {
@@ -586,18 +598,20 @@ ul {
 
 /*menilmontant*/
 .fa-heart {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .container {
   position: absolute;
-  bottom: 5px;
-  right: 24px;
+  top: 5px;
+  right: 0;
   transform: translate(-50%, -50%);
 }
 
 .heart {
   position: relative;
+  right: 20px;
+  top: 15px;
   z-index: 1;
   cursor: pointer;
   -webkit-text-stroke: 2px white;

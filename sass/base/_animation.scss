@@ -1,15 +1,17 @@
 
 .fa-heart{
-    font-size: 40px;
+    font-size: 30px;
   }
   .container{
     position: absolute;
-    bottom: 5px; right: 24px;
+    top: 5px; right: 0;
     transform: translate(-50%, -50%);  
   }
   
   .heart{
     position:relative;
+    right: 20px;
+    top: 15px;
     z-index:1;
     cursor: pointer;
     -webkit-text-stroke: 2px white;

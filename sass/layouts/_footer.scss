@@ -2,22 +2,31 @@
 footer{
     background-color:rgb(68, 67, 67);
     text-decoration: none;
-    
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
   }
   .ftimg{
 color: white;
-margin: 0 7px;
+margin: 0 7px 10px;
+width: 18%;
+
   }
   .ftimg_contacte{
     display: flex;
     align-items: center;
     color: #fff;
+    margin: -18px 0;
   }
   
   ul {
     list-style: none;
     color: #fff;
     padding: 0 7px;
+    margin: 0;
+    li{
+      margin: -20px 0;
+    }
   }
   .leg{
     color: #fff;
