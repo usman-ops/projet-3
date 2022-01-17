@@ -90,6 +90,10 @@ body {
   .ftimg {
     width: 25% !important;
   }
+
+  .menu h2 {
+    margin-left: 10px !important;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .fonct {
@@ -290,7 +294,7 @@ header .fa-arrow-left {
   font-size: 1rem;
   font-weight: normal;
   color: black;
-  margin-left: 10px;
+  margin-left: 30px;
   margin-bottom: 1.5rem;
 }
 .menu h2 .underline {
@@ -511,6 +515,10 @@ header .fa-arrow-left {
   justify-content: center;
   background-color: #f3f3f3;
   padding: 15px 0;
+}
+
+.lclst_reserve {
+  padding: 1rem;
 }
 
 .lclst_icone--i {
